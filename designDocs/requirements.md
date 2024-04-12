@@ -95,6 +95,9 @@
 30. **Art Advisor Guidance Feature**:
     - Art advisors can access a database of art history and information to assist buyers in making informed decisions.
 
+31. **Interaction with Artists**:
+    - Users can interact with artists by following their profiles.
+
 ### Non-functional Requirements:
 
 1. **Security**:
