@@ -89,6 +89,12 @@
 28. **Basic User Account Management**:
     - Users can manage their account settings, preferences, etc.
 
+29. **Promotional Offers or Discounts**:
+    - Artists can add promotional offers or discounts on their artworks to attract buyers.
+
+30. **Art Advisor Guidance Feature**:
+    - Art advisors can access a database of art history and information to assist buyers in making informed decisions.
+
 ### Non-functional Requirements:
 
 1. **Security**:
@@ -105,4 +111,3 @@
 
 5. **Maintainability**:
    - Write clean, well-documented code to facilitate future updates and maintenance.
-
