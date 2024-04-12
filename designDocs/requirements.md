@@ -1,3 +1,8 @@
+<!--toc:start-->
+- [Functional Requirements:](#functional-requirements)
+- [Non-functional Requirements:](#non-functional-requirements)
+<!--toc:end-->
+
 ### Functional Requirements:
 
 1. **Browse Functionality**:
@@ -25,7 +30,7 @@
    - Users can view specially curated collections of artworks updated weekly.
 
 9. **Artwork Interaction Features**:
-   - Users can interact with artworks, such as liking, commenting, or sharing them.
+   - Users can interact with artworks, such as liking, or sharing them.
 
 10. **Artwork Purchase and Checkout**:
     - Users can add artworks to their cart and proceed to checkout to complete their purchase.
@@ -40,7 +45,7 @@
     - Users can visualize how an artwork will look in their space using a simulated view.
 
 14. **Personalized Artwork Recommendations**:
-    - The website provides personalized recommendations based on user preferences and browsing history.
+    - The website provides personalized recommendations based on user preferences.
 
 15. **Virtual Gallery Wall Simulation Feature**:
     - Users can simulate placing multiple artworks on a virtual gallery wall to visualize their arrangement.
