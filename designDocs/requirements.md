@@ -20,8 +20,8 @@
 5. **Artwork Details Page**:
    - Each artwork has a dedicated details page displaying information such as artist name, title, description, price, etc.
 
-6. **Secure Payment Processing**:
-   - Users can securely purchase artworks using credit cards or other payment methods.
+6. **Payment Processing**:
+   - Users can purchase artworks using credit cards or other payment methods.
 
 7. **Artist Profiles and Portfolios**:
    - Artists can create profiles and showcase their portfolios, including images and descriptions of their artworks.
