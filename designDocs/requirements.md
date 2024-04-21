@@ -77,7 +77,7 @@
 24. **Shipping email**:
     - Users receive email for order confirmations, shipping updates, etc.
 
-25. **Basic User Account Management**:
+25. **User Account Management**:
     - Users can manage their account settings, preferences, etc.
 
 26. **Promotional Offers or Discounts**:
