@@ -1,6 +1,7 @@
 <!--toc:start-->
-- [Functional Requirements:](#functional-requirements)
-- [Non-functional Requirements:](#non-functional-requirements)
+- [Stakeholders](#stakeholders)
+- [Functional Requirements](#functional-requirements)
+- [Non-functional Requirements](#non-functional-requirements)
 <!--toc:end-->
 
 ### Stakeholders:
@@ -14,6 +15,7 @@
 
 1. **Browse Functionality**:
     - Users can navigate through the website to explore available artworks.
+
 2. **Search Functionality**:
     - Users can search for artworks based on artist, title, keyword, or other criteria.
 
