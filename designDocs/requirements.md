@@ -27,69 +27,69 @@
    - Users can view specially curated collections of artworks updated weekly.
 
 8. **Artwork Interaction Features**:
-   - Users can interact with artworks, such as liking, or sharing them.
+   - Users can interact with artworks, such as voting, or sharing them.
 
 9. **Artwork Purchase and Checkout**:
-    - Users can add artworks to their cart and proceed to checkout to complete their purchase.
+   - Users can add artworks to their cart and proceed to checkout to complete their purchase.
 
 10. **Artwork Shipping and Delivery**:
-    - Users can provide shipping information and select shipping options for their purchased artworks.
+   - Users can provide shipping information and select shipping options for their purchased artworks.
 
 11. **Artwork Selling Process for Artists**:
-    - Artists can list their artworks for sale, set prices, and manage inventory.
+   - Artists can list their artworks for sale, set prices, and manage inventory.
 
 12. **Simulated View in Your Room Feature**:
-    - Users can visualize how an artwork will look in their space using a simulated view.
+   - Users can visualize how an artwork will look in their space using a simulated view.
 
 13. **Personalized Artwork Recommendations**:
-    - The website provides personalized recommendations based on user preferences.
+   - The website provides personalized recommendations based on user preferences.
 
 14. **Virtual Gallery Wall Simulation Feature**:
-    - Users can simulate placing multiple artworks on a virtual gallery wall to visualize their arrangement.
+   - Users can simulate placing multiple artworks on a virtual gallery wall to visualize their arrangement.
 
 15. **Art Advisor Guidance Feature**:
-    - Users can request guidance from art advisors for personalized artwork recommendations.
+   - Users can request guidance from art advisors for personalized artwork recommendations.
 
 16. **eGift Cards Feature**:
-    - Users can purchase and send eGift cards to others for art purchases.
+   - Users can purchase and send eGift cards to others for art purchases.
 
 17. **Online Virtual Galleries for Artists**:
-    - Artists can create virtual galleries to showcase their artworks online.
+   - Artists can create virtual galleries to showcase their artworks online.
 
 18. **Art Fair and Gallery Registration Feature**:
-    - Artists and galleries can register for participation in art fairs and exhibitions.
+   - Artists and galleries can register for participation in art fairs and exhibitions.
 
 19. **Referral Program with Discounts**:
-    - Users can refer friends and receive discounts on purchases as a reward.
+   - Users can refer friends and receive discounts on purchases as a reward.
 
 20. **Artwork Wishlist**:
-    - Users can add artworks to their wishlist for future reference.
+   - Users can add artworks to their wishlist for future reference.
 
 21. **Artwork Management Dashboard for Artists**:
-    - Artists have access to a dashboard to manage their artworks, inventory, and sales.
+   - Artists have access to a dashboard to manage their artworks, inventory, and sales.
 
-22. **User Feedback and Support**:
-    - Users can provide feedback and request support through the website.
+22. **User Feedback**:
+   - Users can provide feedback to an artist through the website.
 
 23. **Content Management System (CMS) for Static Pages**:
-    - Administrators can manage static pages such as About Us and Terms of Service using a CMS.
+   - Administrators can manage static pages such as About Us and Terms of Service using a CMS.
 
 24. **Shipping email**:
-    - Users receive email for order confirmations, shipping updates, etc.
+   - Users receive email for order confirmations, shipping updates, etc.
 
 25. **User Account Management**:
-    - Users can manage their account settings, preferences, etc.
+   - Users can manage their account settings, preferences, etc.
 
 26. **Promotional Offers or Discounts**:
-    - Artists can add promotional offers or discounts on their artworks to attract buyers.
+   - Artists can add promotional offers or discounts on their artworks to attract buyers.
 
 27. **Interaction with Artists**:
-    - Users can interact with artists by following their profiles.
+   - Users can interact with artists by following their profiles.
 
 ### Non-functional Requirements:
 
 1. **Security**:
-   - Implement measures to protect user data and prevent unauthorized access.
+   - Ensure robust security measures, including password hashing, are implemented within the database to safeguard user credentials and protect against unauthorized access.
 
 2. **Performance**:
    - Ensure fast loading times and responsiveness of the website.
