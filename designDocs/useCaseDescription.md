@@ -8,7 +8,7 @@
 2. **Browse Functionality**:
     - Name: Browse Artworks
     - Actors: Buyer
-    - Pre-condition: Buyer is logged in and he is on the website's homepage.
+    - Pre-condition: Buyer is logged in, and he is on the website's homepage.
     - Post-condition: Buyer has viewed available artworks.
     - Description: Buyer navigates through the website to explore available artworks. They can scroll through various categories, feature artworks, or use the search functionality to find specific pieces.
 
@@ -16,7 +16,7 @@
 3. **Search Functionality**:
     - Name: Search Artworks
     - Actors: Buyer
-    - Pre-condition: Buyer is logged in and he is on the website.
+    - Pre-condition: Buyer is logged in, and he is on the website.
     - Post-condition: Buyer has found relevant artworks based on search criteria.
     - Description: Buyer can search for artworks based on artist name, title, keyword, or other criteria. They enter their search query in the search bar and are presented with matching results.
 
@@ -54,7 +54,7 @@
     - Actors: Buyer
     - Pre-condition: Buyer is logged in and viewing an artwork.
     - Post-condition: User has interacted with the artwork (e.g., liked, or shared).
-    - Description: User can interact with artworks by liking, sharing, or adding comments. These interactions help users engage with artworks and share their preferences with others.
+    - Description: User can interact with artworks by voting, and sharing. These interactions help users engage with artworks and share their preferences with others.
 
 9. **Artwork Purchase and Checkout**:
     - Name: Purchase Artwork
@@ -82,7 +82,7 @@
     - Actors: Buyer
     - Pre-condition: Buyer is logged in and viewing an artwork.
     - Post-condition: Buyer has visualized the artwork in their room.
-    - Description: Buyer can use the simulated view feature to visualize how an artwork will look in their space. They upload a photo of their room or use a pre    - xisting template and overlay the artwork to see how it complements their space.
+    - Description: Buyer can use the simulated view feature to visualize how an artwork will look in their space. They upload a photo of their room or use a pre-existed template and overlay the artwork to see how it complements their space.
 
 13. **Personalized Artwork Recommendations**:
     - Name: Receive Personalized Recommendations
@@ -91,118 +91,116 @@
     - Post-condition: Buyer has received personalized artwork recommendations.
     - Description: Based on user preferences, browsing history, and interactions, the website provides personalized recommendations for artworks that align with the user's interests and taste.
 
-14. **Virtual Gallery Wall Simulation Feature**:
-    - Name: Arrange Artworks on Virtual Wall
-    - Actors: Buyer
-    - Pre-condition: Buyer has selected multiple artworks.
-    - Post-condition: Buyer has arranged artworks on a virtual gallery wall.
-    - Description: Buyer can simulate placing multiple artworks on a virtual gallery wall to visualize their arrangement and how they complement each other. This feature helps users in planning and designing their gallery wall.
-
-15. **Request Guidance**:
+14. **Request Guidance**:
     - Name: Request Art Advisor for Guidance
     - Actors: Buyer
     - Pre-condition: Buyer is logged in.
     - Post-condition: Buyer is waiting for art advisor’s respond.
     - Description: Buyer can request guidance from art advisors for personalized artwork recommendations. They provide information about their preferences and requirements, and the art advisor suggests suitable artworks based on their expertise.
 
-16. **Respond Buyer Request**:
-    - Name: respond buyer request.
-    - Actors: art advisor.
+15. **Respond Buyer Request**:
+    - Name: Respond to Buyer Request
+    - Actors: Art advisor.
     - Pre-condition: art advisor is in pending page and buyer has requested artwork Guidance.
     - Post-condition: art advisor declined or sent an email with artwork recommendations.
     - Description: Advisors should offer a range of guidance services, including Personalized recommendations based on user preferences and collecting goals.
 
-17. **Approve Artwork**:
-    - Name: approval artwork.
-    - Actors: art advisor.
+16. **Approve Artwork**:
+    - Name: Approval Artwork.
+    - Actors: Art advisor.
     - Pre-condition: an artist has uploaded an artwork.
     - Post-condition: art advisor declined or accepted the artwork.
     - Description: When an artist decides to sell his artwork on the platform, the art advisor should check the artwork first then decide to approve or decline.
 
 
 
-18. **eGift Cards Feature**:
+17. **eGift Cards Feature**:
     - Name: Purchase and Send eGift Card.
     - Actors: Buyer
     - Pre-condition: Buyer is logged in.
     - Post-condition: Buyer has purchased and sent an eGift card to the recipient.
     - Description: Buyer can purchase eGift cards for art purchases and send them to others as gifts. They specify the card value, recipient's email address, and include a personalized message before completing the purchase.
 
-19. **Online Virtual Galleries for Artists**:
+18. **Online Virtual Galleries for Artists**:
     - Name: Create Virtual Gallery
     - Actors: Artist
     - Pre-condition: Artist is logged in.
     - Post-condition: Artist has created a virtual gallery to showcase their artworks.
     - Description: Artists can create virtual galleries on the platform to showcase their artworks online. They organize their artworks into collections, add descriptions, and customize the layout to create an immersive viewing experience for visitors.
 
-20. **Art Fair and Gallery Registration Feature**:
-    - Name: Register for Art Fair or Exhibition
-    - Actors: Artist
-    - Pre-condition: Artist is logged in.
-    - Post-condition: Artist is registered for the art fair or exhibition.
-    - Description: Artists can register for participation in art fairs and exhibitions through the platform. They provide necessary details such as contact information, portfolio samples, and both preferences during the registration process.
+19. **Art Fair and Gallery Creation Feature**:
+    - Name: Manage Art Fair.
+    - Actors: Admin
+    - Pre-condition: Admin is logged in.
+    - Post-condition: A new art fair has been created/modified.
+    - Description: Admin can create/manage an art fair with selected artists through the platform. He provides necessary details such as registered artists, date, description, title, and location.
 
-
-21. **Referral Program with Discounts**:
+20. **Referral Program with Discounts**:
     - Name: Refer Friends for Discounts
     - Actors: Buyer
     - Pre-condition: Buyer is logged in.
     - Post-condition: Buyer receives discounts on purchases as a reward for successful referrals.
     - Description: Buyer can refer friends to the platform by sharing referral links or codes. When a referred friend makes a purchase using the referral, both the user and the friend receive discounts on their purchases as a reward.
 
-
-22. **Artwork Wishlist**:
-    - Name: Add artwork to Wishlist.
+21. **Artwork Wishlist**:
+    - Name: Add to Wishlist.
     - Actors: Buyer
     - Pre-condition: Buyer is logged in.
     - Post-condition: Artwork is added to the user's Wishlist for future reference.
     - Description: Buyer can add artworks to their Wishlist for future reference. They can easily access their Wishlist to view and manage the artworks they are interested in purchasing or exploring further.
 
-23. **Artwork Management Dashboard for Artists**:
+22. **Artwork Management Dashboard for Artists**:
     - Name: Manage Artwork Inventory and Sales
     - Actors: Artist
     - Pre-condition: Artist is logged in.
     - Post-condition: Artist has managed their artworks, inventory, and sales.
-    - Description: Artists have access to a dashboard where they can manage their artworks, inventory, and sales. They can add new artworks, update existing listings, track inventory levels.
+    - Description: Artists have access to a dashboard where they can manage their artworks, inventory, and sales. They can add new artworks, add offer on artworks, track inventory levels.
 
-24. **User Feedback and Support**:
-    - Name: Provide Feedback and Request Support
+23. **User Feedback**:
+    - Name: Provide Feedback.
     - Actors: Buyer
     - Pre-condition: Buyer is logged in.
-    - Post-condition: Buyer has submitted feedback or received support assistance.
-    - Description: Buyer can provide feedback on their experience using the website, report issues, or request assistance through the support channel. The platform facilitates communication between users and support staff to address any concerns or queries promptly.
+    - Post-condition: Buyer has submitted feedback.
+    - Description: Buyer can provide feedback on their experience using the website, report issues.
 
-25. **Content Management System (CMS) for Static Pages**:
-    - Name: Manage Static Pages Content
+24. **Content Management System (CMS) for Static Pages**:
+    - Name: Manage Static Pages
     - Actors: Administrator
     - Pre-condition: Administrator is logged in.
     - Post-condition: Static pages content (e.g., About Us, Terms of Service) is updated.
     - Description: Administrators have access to a Content Management System (CMS) where they can manage static pages content such as About Us, Terms of Service, Privacy Policy, etc. They can edit, add, or remove content as needed to keep the information accurate and up to date.
 
-26. **Shipping Email**:
+25. **Shipping Email**:
     - Name: Receive Shipping Updates
     - Actors: Buyer
     - Pre-condition: Buyer has completed a purchase.
-    - Post-condition: Buyer receives email notifications for order confirmations, shipping updates, etc.
-    - Description: After completing a purchase, user receives email notifications for order confirmations, shipping updates, and delivery tracking information. These emails keep users informed about the status of their orders and provide a seamless shopping experience.
+    - Post-condition: Buyer receives email notifications for order confirmations.
+    - Description: After completing a purchase, user receives email notifications for order confirmations, shipping updates, and delivery tracking information.
 
-27. **Basic User Account Management**:
+26. **Basic User Account Management**:
     - Name: Manage Account Settings
-    - Actors: Buyer
+    - Actors: User
     - Pre-condition: Buyer is logged in.
     - Post-condition: Buyer has managed their account settings and preferences.
     - Description: Buyer can manage their account settings and preferences through the platform. They can edit their profile information, change passwords, update email preferences, and manage communication settings. This functionality provides users with control over their account details and enhances their overall experience on the platform.
 
-28. **Promotional Offers or Discounts**:
-    - Name: Apply Promotional Offers
+27. **Promotional Offers or Discounts**:
+    - Name: Apply Promotional Offers.
     - Actors: Buyer
     - Pre-condition: Buyer is logged in and making a purchase.
     - Post-condition: User has applied promotional offers or discounts to their purchase.
     - Description: Users can benefit from promotional offers or discounts provided by artists or the platform. During the checkout process, users can apply valid promo codes or discounts to their purchase, reducing the total cost and incentivizing sales.
 
-29. **Interaction with Artists**:
+28. **Interaction with Artists**:
     - Name: Interact with Artists
     - Actors: Buyer
     - Pre-condition: Buyer is logged in.
     - Post-condition: Buyer interacted through the platform.
-    - Description: Buyers can interact with artists by following their profiles, leaving comments on their artworks. 
+    - Description: Buyers can interact with artists by following their profiles.
+
+29. **View Feedbacks**:
+    - Name: View Feedbacks
+    - Actors: Admin
+    - Pre-condition: Admin is logged in.
+    - Post-condition: Admin has viewed an amount of feedbacks, and marked them as read.
+    - Description: Admin can view feedbacks sent by Buyers and mark them as read.

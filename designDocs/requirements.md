@@ -83,7 +83,7 @@
     - Administrators can manage static pages such as About Us and Terms of Service using a CMS.
 
 24. **Shipping email**:
-    - Users receive email for order confirmations, shipping updates, etc.
+    - Users receive email for order confirmations.
 
 25. **User Account Management**:
     - Users can manage their account settings, preferences, etc.
@@ -92,7 +92,7 @@
     - Artists can add promotional offers or discounts on their artworks to attract buyers.
 
 27. **Interaction with Artists**:
-    - Users can interact with artists by following their profiles.
+    - Users can interact with artists by following their profiles, and voting their artworks.
 
 ### Non-functional Requirements:
 
