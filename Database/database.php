@@ -11,7 +11,7 @@ class Database {
   private function __construct() {}
   public static function getInstance() {
     if (self::$db === null) {
-      self::$db = new self();
+      self::$db = new Database();
     }
     return self::$db;
   }

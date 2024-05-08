@@ -1,16 +1,15 @@
 <?php
-
 class Artist{
     private int $id;
-    private string $userName;
+    private string $username;
     private string $email;
     private string $counter;
     private string $pfp;
     private string $bio;
 
-    public function __constructor ($id, $userName, $email, $counter, $pfp, $bio){
+    public function __constructor ($id, $username, $email, $counter, $pfp, $bio){
         $this->id = $id;
-        $this->userName = $userName;
+        $this->username = $username;
         $this->email = $email;
         $this->counter = $counter;
         $this->pfp = $pfp;
@@ -18,10 +17,10 @@ class Artist{
     }
 
     public function getUserName () : string {
-        return $this->userName;
+        return $this->username;
     }
-    public function setUserName ($userName) {
-        $this->userName = $userName;
+    public function setUserName ($username) {
+        $this->username = $username;
     }
     public function getEmail () : string {
         return $this->email;
