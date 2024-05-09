@@ -1,5 +1,5 @@
 <?php
-include_once();
+require_once "Artist.php";
 
 class Artwork{
     private int $id;
@@ -9,22 +9,37 @@ class Artwork{
     private int $price;
     private int $width;
     private int $height;
-    private date $date;
+    private $date;
     private float $offer;
-    private int $state = 0;
+    private Artist $artist;
+    private static $state = 0;
+    private static $table = 'Artwork';
 
-    public function __construct($id, $titel, $artworkPath, $description, $price, $width, $height){
-        $this->id = id;
-        $this->titel = titel;
-        $this->ArtworkPath = ArtworkPath;
-        $this->description = description;
-        $this->price = price;
-        $this->width = width;
-        $this->height = height;
-        $this->date = date(f j m);
+    public static function read() {
+        $db = Database::getInstance();
+        $conn = $db->connect();
+        $query = 'SELECT
+        b.id,
+        b.titel,
+        b.artworkPath,
+        b.description,
+        b.price,
+        b.width,
+        b.heigth,
+        b.date
+        FROM ' . self::$table . ' as b WHERE state = ' . self::$state;
+        // Prepare
+        $stmt = $conn->prepare($query);
+    
+        // Execute
+        $stmt->execute();
+        return $stmt;
+      }
+
+    public function getId () : int {
+        return $this->id;
     }
-
-    public function geTtitel () : string {
+    public function getTitel () : string {
         return $this->titel;
     }
     public function getArtworkPath () : string {
@@ -47,5 +62,11 @@ class Artwork{
     }
     public function setOffer (float $offer) : string {
         return $this->offer = $offer / 100;
+    }
+    public function setState (int $state) {
+        $this->state = $state;
+    }
+    public function getState () : int {
+        return $this->state;
     }
 }

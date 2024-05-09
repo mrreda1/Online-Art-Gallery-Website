@@ -5,14 +5,14 @@ abstract class User {
   protected int $id;
   protected string $username;
   protected string $email;
-  protected string $password;
+  protected string $passwd;
   protected static $table = 'User';
 
-  public function __constructor($id, $username, $email, $password) {
+  public function __constructor($id, $username, $email, $passwd) {
     $this->id = $id;
     $this->username = $username;
     $this->email = $email;
-    $this->password = $password;
+    $this->passwd = $passwd;
   }
   public function getUserName(): string {
     return $this->username;
