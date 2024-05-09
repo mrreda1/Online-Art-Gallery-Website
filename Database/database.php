@@ -4,14 +4,14 @@ class Database {
   private $db_name = 'gallery';
   private $username = 'root';
   private $password = '';
-  private static Database $db;
   private $conn;
 
   // Singleton design pattern
+  private static $db = null;
   private function __construct() {}
   public static function getInstance() {
     if (self::$db === null) {
-      self::$db = new Database();
+      self::$db = new self();
     }
     return self::$db;
   }
