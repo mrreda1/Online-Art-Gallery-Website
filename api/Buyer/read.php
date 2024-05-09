@@ -2,8 +2,8 @@
 header('Access-Control-Allow-Origin: *');
 header('Content-Type: application/json');
 
-require_once '../Database/database.php';
-require_once '../Models/Buyer.php';
+include_once '../../Database/database.php';
+include_once '../../Models/Buyer.php';
 
 $buyer = new Buyer();
 

@@ -1,5 +1,5 @@
 <?php
-require_once "../Database/database.php";
+include_once "../Database/database.php";
 
 abstract class User {
   protected int $id;
@@ -8,7 +8,7 @@ abstract class User {
   protected string $passwd;
   protected static $table = 'User';
 
-  public function __constructor($id, $username, $email, $passwd) {
+  public function __construct($id, $username, $email, $passwd) {
     $this->id = $id;
     $this->username = $username;
     $this->email = $email;

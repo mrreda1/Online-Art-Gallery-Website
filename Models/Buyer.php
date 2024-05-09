@@ -1,9 +1,9 @@
 <?php
-require_once "User.php";
+include_once "User.php";
 
 class Buyer extends User {
   private static $role = 0;
-  public function __constructor() {
+  public function __construct() {
   }
   public static function read() {
     $db = Database::getInstance();

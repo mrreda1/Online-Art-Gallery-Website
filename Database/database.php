@@ -3,7 +3,7 @@ class Database {
   private $host = 'localhost';
   private $db_name = 'gallery';
   private $username = 'root';
-  private $password = '';
+  private $password = 'Stone';
   private $conn;
 
   // Singleton design pattern
